@@ -57,6 +57,32 @@ Run the script to permanently delete files older than 90 days:
 python3 Purgearr.py
 ```
 
+### Automating with Cronjob
+
+To automate the execution of Purgearr, you can set up a cronjob that runs the script at a specific time interval. Here's how to do it:
+
+1. Open the crontab editor:
+
+   ```bash
+   crontab -e
+   ```
+
+2. Add a cronjob entry to run Purgearr daily at midnight (00:00). Modify the path to the script based on its location on your system:
+
+   ```bash
+   0 0 * * * /usr/bin/python3 /path/to/Purgearr.py >> /path/to/log/purgearr.log 2>&1
+   ```
+
+   This cronjob does the following:
+   - Runs the script every day at midnight (00:00).
+   - Logs both standard output and errors to `purgearr.log` for troubleshooting and monitoring.
+
+3. Save and exit the crontab editor.
+
+**Notes:**
+- Make sure to set the correct path to the Python binary and the script.
+- Check the log file periodically to ensure the script runs as expected.
+
 ## Tag Exclusion
 
 Purgearr supports excluding media from deletion by using tags. If a show or movie is tagged with `keeper`, the file will be skipped.
