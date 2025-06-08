@@ -6,7 +6,7 @@
 
 - **Automatic Deletion**: Delete media files older than 90 days.
 - **Test Mode**: Simulate the deletion process to preview what files would be removed.
-- **Intelligent Season-Überwachung**: Deactivates monitoring of fully deleted seasons.
+- **Intelligent Season-Monitoring**: Deactivates monitoring of fully deleted seasons.
 - **Tag Exclusion**: Protect shows and movies tagged with "keeper" from deletion.
 - **Customizable**: Set custom cut-offs and/or keeper tags within the script.
 
