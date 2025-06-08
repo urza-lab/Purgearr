@@ -6,12 +6,13 @@
 
 - **Automatic Deletion**: Delete media files older than 90 days.
 - **Test Mode**: Simulate the deletion process to preview what files would be removed.
+- **Intelligent Season-Überwachung**: Deactivates monitoring of fully deleted seasons.
 - **Tag Exclusion**: Protect shows and movies tagged with "keeper" from deletion.
-- **Customizable**: Easily add or modify the tag exclusion list using a configuration file or API tags in Sonarr/Radarr.
+- **Customizable**: Set custom cut-offs and/or keeper tags within the script.
 
 ## Requirements
 
-- Python 3.x
+- Python 3.8+
 - Sonarr and Radarr installations
 - API keys for both Sonarr and Radarr
 
