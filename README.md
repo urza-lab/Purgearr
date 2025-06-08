@@ -42,6 +42,15 @@
 
 ## Usage
 
+### Configuration
+
+- The script is set to delete files older than 90 days. You can adjust this by changing the `cutoff_date` value in the script.
+- The default tag for exclusion is `"keeper"`. To modify this, update the `EXCLUDE_TAG` variable in the script.
+
+```python
+EXCLUDE_TAG = 'keeper'
+```
+
 ### Test Mode
 
 Run the script in **test mode** to preview which files would be deleted without making any actual changes:
@@ -93,15 +102,6 @@ You can add the "keeper" tag in Sonarr or Radarr:
 1. Go to the series/movie page.
 2. Navigate to the tags section.
 3. Add or create the tag "keeper".
-
-## Configuration
-
-- The script is set to delete files older than 90 days. You can adjust this by changing the `cutoff_date` value in the script.
-- The default tag for exclusion is `"keeper"`. To modify this, update the `EXCLUDE_TAG` variable in the script.
-
-```python
-EXCLUDE_TAG = 'keeper'
-```
 
 ## Contributing
 
