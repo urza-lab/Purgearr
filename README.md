@@ -1,6 +1,6 @@
 # Purgearr
 
-**Purgearr** is a Python-based tool that interacts with Sonarr and Radarr APIs to manage and delete media files based on configurable criteria such as file age and tags. This script helps maintain your media library by automatically purging old files that are no longer needed, while allowing you to preserve certain shows or movies using the "keeper" tag.
+**Purgearr** is a Python-based tool that interacts with Sonarr and Radarr APIs to manage and delete media files based on configurable criteria such as file age and tags. This script helps maintain your media library by automatically purging old files that are no longer needed, while allowing you to preserve certain shows or movies using the "keeper" tag in Sonarr, Radarr, Overseerr, Jellyseerr.
 
 ## Features
 
