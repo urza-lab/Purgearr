@@ -89,10 +89,6 @@ To automate the execution of Purgearr, you can set up a cronjob that runs the sc
 
 3. Save and exit the crontab editor.
 
-**Notes:**
-- Make sure to set the correct path to the Python binary and the script.
-- Check the log file periodically to ensure the script runs as expected.
-
 ## Tag Exclusion
 
 Purgearr supports excluding media from deletion by using tags. If a show or movie is tagged with `keeper`, the file will be skipped.
